@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "it is a web-based tool designed to harness the capabilities of the DeepAI Text Generator API. This project empowers users to interact with the DeepAI API, allowing them to input text prompts and receive AI-generated textual content as output.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
