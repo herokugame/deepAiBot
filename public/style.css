@@ -90,3 +90,20 @@ color: white;
     padding: 10px;
     border: 1px solid #ccc;
 }
+
+.sticky-element {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0088cc;
+  color: #fff;
+  padding: 4px;
+  text-align: center;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.sticky-element:hover {
+  background-color: #006699;
+}
